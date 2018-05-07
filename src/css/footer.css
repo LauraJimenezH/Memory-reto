@@ -1,0 +1,23 @@
+.retry button {
+    border-style: none;
+    margin: 10px 100px;
+    width: 150px;
+    height: 50px;
+    background-color: greenyellow;
+    font-size: 18px;
+}
+
+@media(min-width:768px){
+    .retry button {
+        border-style: none;
+        border-radius: 5px;
+        top:590px;
+        left: 36%;
+        width: 150px;
+        height: 50px;
+        background-color: greenyellow;
+        font-size: 18px;
+        position: absolute;
+    }
+    
+  }

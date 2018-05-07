@@ -1,0 +1,13 @@
+.table{
+ display: flex;
+ flex-wrap: wrap;
+ width: 200px;
+ height:550px;
+ margin: 5px auto;
+ justify-content: space-around;
+}
+@media(min-width:768px){
+ .table{
+  width: 700px;
+ }
+}

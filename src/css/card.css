@@ -1,0 +1,43 @@
+.card{
+  cursor: pointer;
+  width:90px;
+  height:110px;
+}
+
+.portada{
+  width:90px;;
+  height: 125px;;
+  background: url('../assets/imagenes/back.jpg') center;
+  background-size: cover;
+}
+
+.back{
+  width:90px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  width:90px;
+  height:125px;
+}
+
+@media(min-width:768px){
+  .card{
+    width:155px;
+    height: 135px;
+  }
+  .img{
+    width:115px;
+    height: 175px;
+  }
+  .portada{
+    width:124px;
+    height: 175px;
+  }
+  .back{
+    height: 175px;
+  }
+}
